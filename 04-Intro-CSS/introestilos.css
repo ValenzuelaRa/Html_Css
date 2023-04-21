@@ -1,0 +1,48 @@
+.colores{
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #839788;
+}
+
+.color-rgb{
+    color: rgb(100,0,200);
+}
+
+.color-rgba{
+    color: rgba(10,10,10,0.8);
+}
+
+.fondo{
+    /* background-color: aqua; */
+    background-image: url("https://cdn.stocksnap.io/img-thumbs/280h/colorful-bokeh_FSOBBNPKKZ.jpg");
+    position: center center;
+}
+
+.fondo-interno{
+    /* background-color: aqua; */
+    background-image: url("./montaña.jpg");
+    position: center center;
+
+}
+
+.ancho{
+    background-color: #839788;
+    width: 100px;
+}
+
+.alto
+{
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.tarjeta{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-style: solid;
+    border-color: rgb(150, 155, 155);
+    border-width: 1px;
+    /* border-top: none; */
+}

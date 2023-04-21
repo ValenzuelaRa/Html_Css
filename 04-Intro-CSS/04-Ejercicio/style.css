@@ -1,0 +1,9 @@
+/*Modifica el CSS para que el primer elemento de cada lista se muestre de color rojo*/
+#elemento-1{
+    color: red;
+}
+
+/*A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem*/
+ul #elemento-1{
+    font-size: 2rem;
+}
