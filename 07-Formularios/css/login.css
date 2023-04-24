@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Rubik:wght@400;500&family=Stick+No+Bills:wght@300&family=Ubuntu+Mono&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+html{
+    background-color: #161717;
+    padding: 0;
+    margin: 0;
+    color: rgb(238, 245, 246);
+ }
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+ .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    margin: auto;
+ }
+
+ .buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 30px;
+ }
+
+ .google-btn{
+    background-color: rgb(26,115,232);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+ }
+
+ .google-btn picture{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .google-btn picture img{
+    width: 50%;
+ }
+
+ .google-btn span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+ }
+
+ .google-btn:hover{
+    opacity: 0.8;
+ }
+
+ .twitter-btn{
+    display: flex;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    opacity: 0.6;
+    border: none;
+    width: 40px;
+    cursor: pointer;
+ }
+
+ .twitter-btn picture img{
+    width: 50%;
+ }
+
+ .twitter-btn:hover{
+    background-color: #cecdcd;
+ }
+
+ .separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+ }
+
+ .separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #E0E0E0;
+ }
+
+ .separator span{
+    color: #6E6D7A;
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+ }
+
+ label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ label span{
+    font-weight: 500;
+ }
+
+ .section-input{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+ }
+
+ .section-input label input{
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    font-size: 12pt;
+ }
+
+
+ label input{
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    padding: 10px 16px;
+ }
+
+ label input:hover{
+    background-color: #454045;
+    border:  solid 1px #ffdaf1;
+    box-shadow: 0 0 8px #ffdaf1;
+ }
+
+ label input:focus{
+    background-color: white;
+    border:  solid 1px #ffdaf1;
+    box-shadow: 0 0 8px #ffdaf1;
+ }
+
+ #password::placeholder{
+    font-size: 15px;
+    opacity: 0.7;
+ }
+
+ .terminos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .terminos input[type="checkbox"]{
+    width: 16px;
+ }
+
+ .terminos span{
+    font-weight: 400;
+ }
+
+  .submit-btn{
+    border: none;
+    background-color: #EA4C89;
+    color: white;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+ }
+
+ .submit-btn:hover{
+    opacity: 0.7;
+ }
+
+ .createacount{
+    display: flex;
+    flex-direction: column;
+ }
